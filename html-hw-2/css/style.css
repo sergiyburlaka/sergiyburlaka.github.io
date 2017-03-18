@@ -3,11 +3,27 @@
 	margin: 0;
 }
 
-#wrap{
+body{
 	background: #f9f9f9;	
 	min-width: 980px;
   
 }
+p{
+	font-size:18px;
+	line-height: 22px;
+
+}
+
+
+.wrapper{
+	
+	width: 980px;
+	background: #FFFFFF;
+	border: 1px solid #ffffff;
+	box-shadow: 0 0 10px rgba(0,0,0,0.5);
+	margin: auto;
+}
+
 .logo{
 	background: url(../img/logo.jpg);
 	background-repeat: no-repeat;
@@ -16,18 +32,13 @@
 	width: 200px;
 }
 
-ul.menu_fute li{
-	margin: 10px 0 0 10px;
-	padding: 0 10px 0 10px;
-	
-}
-ul.menu_fute li{
-	
-}
+
+
+
 .nav-hor{
-	background-image: url(../img/menu.jpg);
+	background: #5b5b5b;
+    background: linear-gradient(to top, #b5bdc8 0%, #4f4f4f 0%, #494848 60%);
 	height: 40px;
-	
 	margin: 20px 30px 20px 30px;
 	color: #ffffff;
 	font-weight:bold;
@@ -40,24 +51,21 @@ ul.menu-horiz{
 		
 }
 ul.menu-horiz li{
+	line-height: 40px;
 	list-style-type: none;
-	display:inline;
+	display:inline-block;
     margin-right: 5px; 
     border: 0px solid #000; 
-    padding: 0 30px 0 30px;	
+    padding: 0 30px 0 30px;
+	cursor: pointer;
+	transition: 1s all;
+}
+ul.menu-horiz li:hover{
+	background: #3b3b3b;
 }
 
 
-.ww{
-	
-	width: 980px;
-	
-	background: #FFFFFF;
-	border: 1px solid #ff0000;
-	 margin: auto;
-	position: 20px;
-	
-}
+
 #content{
 	margin: -6px 11px 0px 0;
     float: right;
@@ -79,16 +87,20 @@ ul.menu-left {
 }
 ul.menu-left li {
 	list-style-type: none;
+    display: inline-block;
 	border: 1px solid #c8c8c8;
 	height: 20px;
+	width:100%;
 	margin: 0 30px 0 0;
 	padding: 10px 0px 10px 15px;
 }
 ul.menu-left li:hover {
-	padding-left: 30px;
+	display: inline-block;
+	width:98%;
+	margin: 0 20px 0 0;
+	padding: 10px 0px 10px 21px;
 	background: #f9f9f9;
-	
-	
+	text-decoration: none;
 }
 .menu-left a{
 	text-decoration: none;
@@ -101,20 +113,47 @@ ul.menu-left li:hover {
 	color: #000;
 	
 }
-#f{
-
-
+#footer{
+	clear: both;
+	background: #e1e1e1;
+	margin:  30px 30px 50px 30px;
+	height: 35px;	
 	
 }
 
-.menu_futer{
+.menu_footer{
 	
 	float: left;
 	position: 20px;
 
 	}
 
-.copyright{
+#copyright{
+	line-height: 35px;
+	padding: 0 20px 0 0px;
 	float: right;
-	position: 20px;
+
+}
+
+
+ul.nav-footer{
+	margin: 9px 0 0 10px;
+	padding: 0 10px 0 10px;
+	
+}
+ul.nav-footer li{
+	list-style-type: none;
+	display:inline;
+    margin-right: 5px; 
+    border: 0px solid #000; 
+    padding: 0 60px 0 5px;	
+}
+.nav-footer a{
+	text-decoration: none;
+	color: #000000;
+}
+
+.nav-footer a:hover{
+	text-decoration:underline;
+	color: #000000;
 }

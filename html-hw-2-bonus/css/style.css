@@ -3,12 +3,9 @@
 	padding: 0;
 }
 body{
+background: #010101;
 	
-	background: url(../img/bg.jpg )no-repeat;
-    -moz-background-size: 100%; 
-    -webkit-background-size: 100%; 
-    -o-background-size: 100%;
-    background-size: 100%; 
+  
 }
 header{
 	margin: 10px 200px 10px 185px;
@@ -17,9 +14,9 @@ header{
 	height: 150px;
 }
 .wrapper{
+	background: url(../img/bg.jpg )no-repeat;
+	margin: 0 auto;
 	
-	margin: 10px 185px 10px 185px;
-	padding: 0px 0px 0px 0px;
 }
 .logo{
 	background: url(../img/logo.png);
@@ -45,6 +42,7 @@ header{
 }
 
 .foto{
+	width: 980px;
 	
 }
 
@@ -63,6 +61,7 @@ header{
 	padding-bottom: 20px;
 }
 footer{
+	clear: both;
 	margin-top: 50px;
 }
 

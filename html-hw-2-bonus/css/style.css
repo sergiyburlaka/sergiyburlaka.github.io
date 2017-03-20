@@ -3,25 +3,26 @@
 	padding: 0;
 }
 body{
-background: #010101;
+	clear: both;
+	background: #010101;
 	
   
 }
-header{
-	margin: 10px 200px 10px 185px;
-	padding: 0 10px 0 10px;
-	/* border: 1px solid #ff0000; */
-	height: 150px;
+.header{
+	position: relative;
+	width: 980px;
+	margin: 0;
+
 }
 .wrapper{
-	background: url(../img/bg.jpg )no-repeat;
-	margin: 0 auto;
+	
+	background: url(../img/bg.jpg ) fixed no-repeat;
+	background-position: center;
+	margin: 0;
 	
 }
 .logo{
-	background: url(../img/logo.png);
-	background-repeat: no-repeat;
-	margin: 0px 0 0 0px;
+	margin-left: 200px;
 	float: left;
 	padding: 0px;
 	width: 266px;
@@ -42,14 +43,15 @@ header{
 }
 
 .foto{
-	width: 980px;
-	
+	clear: both;
+	width: 860px;
+	margin: 0 auto;
 }
 
 .foto li{
 	float: left;
 	width: 280px;
-	padding: 20px 5px 0 0;
+	padding: 10px 5px 0 0;
 	list-style-type: none;
 	display:inline-block;
 	

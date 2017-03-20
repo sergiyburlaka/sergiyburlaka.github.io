@@ -54,10 +54,11 @@ ul.menu-horiz li{
 	line-height: 40px;
 	list-style-type: none;
 	display:inline-block;
-    margin-right: 5px; 
-    border: 0px solid #000; 
-   
+	margin-right: 5px;
 	cursor: pointer;
+	border-left: 1px solid rgba(249, 249, 249, 0);
+	border-right: 1px solid rgba(249, 249, 249, 0);
+
 	
 }
 ul.menu-horiz a{
@@ -65,6 +66,8 @@ ul.menu-horiz a{
 	text-decoration: none;
 	display:inline-block;
 	padding: 0 30px 0 35px;
+	border-left: 1px solid rgba(249, 249, 249, 0);
+	border-right: 1px solid rgba(249, 249, 249, 0);
 }
 ul.menu-horiz a:hover{
 	background: #3b3b3b;
@@ -94,9 +97,8 @@ ul.menu-horiz a:hover{
 	border: 0px solid #000;
 }
 ul.menu-left {
-	margin:  15px 0 0 30px;
+	padding: 15px 0 0 30px;
 	border: 0px solid #c8c8c8;
-	
 }
 
 ul.menu-left li{
@@ -106,21 +108,17 @@ ul.menu-left li{
 
 ul.menu-left a {
 	list-style-type: none;
-	display: inline-block;
+	display: block;
 	border: 1px solid #c8c8c8;
 	height: 20px;
-	width: 90%;
 	padding: 10px 0px 10px 15px;
 	text-decoration: none;
 	color: #656363;
 }
 ul.menu-left a:hover {
-	display: inline-block;
-	width:88%;
-	margin: 0 20px 0 0;
-	padding: 10px 0px 10px 21px;
-	background: #f9f9f9;
-	text-decoration: none;
+	display: block;
+	padding: 10px 0px 10px 25px;
+
 }
 
 
@@ -130,50 +128,50 @@ ul.menu-left a:hover {
 	color: #000;
 	
 }
-#footer{
-	clear: both;
-	
-	
-}
 .footer{
 	background: #e1e1e1;
 	margin:  30px 30px 50px 30px;
 	height: 35px;	
-	
+	clear: both;
 }
 
-.menu_footer{
-	
-	float: left;
+.footer div {
+	float: right;
+}
 
-	}
+
+.footer ul li {
+	float: left;
+	margin: 9px 0 0 10px;
+	padding: 0 40px 0 5px;	
+}
+.footer ul {
+	float: left;
+	list-style: none;
+	padding-left: 30px;
+}
+
+
+.clearfix a{
+	text-decoration: none;
+	color: #000000;
+}
+
+.clearfix a:hover{
+	text-decoration:underline;
+	color: #000000;
+}
+
+
+.clearfix::after {
+	display: block;
+	content: '';
+	clear: both;
+}
 
 #copyright{
 	line-height: 35px;
 	padding: 0 20px 0 0px;
 	float: right;
 
-}
-
-
-ul.nav-footer{
-	margin: 9px 0 0 10px;
-	padding: 0 10px 0 10px;
-	
-}
-ul.nav-footer li{
-	list-style-type: none;
-	display:inline;
-    margin-right: 5px; 
-    border: 0px solid #000; 
-    padding: 0 60px 0 5px;	
-}
-.nav-footer a{
-	text-decoration: none;
-	color: #000000;
-}
-
-.nav-footer a:hover{
-	text-decoration:underline;
-	color: #000000;
 }
